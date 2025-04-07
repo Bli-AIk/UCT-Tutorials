@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "UCT Tutorial"
+  name: "UCT Tutorials"
   text: "Undertale Changer Template"
   tagline: An Undertale fan game template built on the Unity engine.<br>
   icon: ❤️
