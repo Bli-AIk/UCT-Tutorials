@@ -8,8 +8,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   title: "Undertale Changer Template 教程",
   description: "A VitePress Site",
   srcDir: 'src',
-  //base: '/vitepress-carbon-template/', if running on github-pages, set repository name here
-
+  base: '/UCT-Tutorials/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
