@@ -3,27 +3,26 @@
 layout: home
 
 hero:
-  name: "UCT教程"
+  name: "UCT Tutorial"
   text: "Undertale Changer Template"
-  tagline: 一个基于 Unity 引擎的<br>Unertale 同人游戏模板。
+  tagline: An Undertale fan game template built on the Unity engine.<br>
   icon: ❤️
   image:
     src: ./bg.svg
     alt: Banner
   actions:
     - theme: brand
-      text: 开始学习之旅
+      text: Embark on Your Learning Journey
       link: /markdown-examples
     - theme: alt
-      text: 访问 UCT 主页
+      text: Visit the UCT Homepage
       link: https://github.com/Bli-AIk/Undertale-Changer-Template
 
 features:
-  - title: 基于 Unity 引擎
-    details: 使用通用渲染管线，支持 2D 光照、 3D 模型和 Live2D 。
-  - title: 完全本地化支持
-    details: 通过外接语言包系统，提供完善的本地化支持。
-  - title: 全流程 / 风格化开发
-    details: 面向全流程和风格化开发，基于 GPLv3 协议完全开源。
+  - title: Built on the Unity Engine
+    details: Utilizing the Universal Render Pipeline, it supports 2D lighting, 3D models, and Live2D.
+  - title: Fully Localized Support
+    details: It offers comprehensive localization through an external language pack system.
+  - title: Full or Stylized Development
+    details: Designed for the full development process with a focus on stylized creation, and it is completely open source under the GPLv3 license.
 ---
-
