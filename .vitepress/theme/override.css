@@ -1,3 +1,9 @@
+/* 在 :root 中覆盖变量 */
+:root {
+    --vp-c-green-1: rgba(241, 83, 246, 0.4);
+}
+
+
 @font-face {
     font-family: 'Determination Mono';
     src: url('/fonts/better-determination-mono.ttf') format('truetype');
@@ -20,14 +26,85 @@
     font-family: 'Determination Mono', 'Fusion Pixel', sans-serif !important;
 }
 
+.string-highlight:first-of-type {
+    background: linear-gradient(rgb(36,55,204) 0%, rgb(241,83,246) 100%, transparent) !important;
+}
+
+.string-highlight:last-of-type {
+    background: linear-gradient(transparent, rgb(241,83,246) 0%, rgb(36,55,204) 100%) !important;
+}
+
+/* 标题 */
+.home-hero .name .clip {
+    background: linear-gradient(to top, rgb(241,83,246) 0%, rgb(241,83,246) 50%, rgb(98, 36, 204) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 .home-hero .text {
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     background-image: linear-gradient(to bottom, rgb(241,83,246) 0%, rgb(241,83,246) 40%, rgb(36,55,204) 100%);
-    background-size: 100% 1.75em;
+    background-size: 100%;
+    white-space: nowrap;
     background-repeat: repeat-y;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
 }
+.home-hero .tagline{
+    font-size: 1.125rem;
+}
 
+.VPButton.medium.brand {
+    background: rgb(177, 84, 243);
+    transition: background 0.2s ease;
+}
+
+.VPButton.medium.brand:hover {
+    background: rgb(157, 64, 223);
+}
+
+.VPButton.medium.brand:active,
+.VPButton.medium.brand:focus {
+    background: rgb(197, 104, 255);
+}
+.VPImage.image-src {
+    width: 15rem;
+    height: auto;
+    image-rendering: pixelated;
+    transition: all 0.3s ease-in-out;
+    filter: drop-shadow(0 0 10px rgba(177, 84, 243, 0.1));
+    animation: breathe 2s infinite ease-in-out; /* 呼吸灯效果 */
+}
+
+@keyframes breathe {
+    0% {
+        filter: drop-shadow(0 0 10px rgba(177, 84, 243, 0.1));
+    }
+    50% {
+        filter: drop-shadow(0 0 15px rgba(177, 84, 243, 0.25));
+    }
+    100% {
+        filter: drop-shadow(0 0 10px rgba(177, 84, 243, 0.1));
+    }
+}
+
+
+.glowing-icon-glow {
+    background: rgba(197, 104, 255, 0.25) !important;
+
+}
+
+
+.side-highlight.git-highlight .icon {
+    background-image: url('/heart.png');
+    background-size: cover;
+    image-rendering: pixelated;
+    background-position: center;
+}
+
+.side-highlight.git-highlight .icon {
+    color: rgba(0,0,0,0);
+}

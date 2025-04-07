@@ -5,15 +5,15 @@ layout: home
 hero:
   name: "UCT Tutorials"
   text: "Undertale Changer Template"
-  tagline: An Undertale fan game template built on the Unity engine.<br>
-  icon: ❤️
+  tagline: An Undertale fan game template<br>built on the Unity engine.
+  icon: image
   image:
-    src: /bg.svg
+    src: /logo.png
     alt: Banner
   actions:
     - theme: brand
       text: Embark on Your Learning Journey
-      link: /markdown-examples
+      link: /01-Foreword
     - theme: alt
       text: Visit the UCT Homepage
       link: https://github.com/Bli-AIk/Undertale-Changer-Template

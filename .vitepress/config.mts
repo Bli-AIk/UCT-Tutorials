@@ -40,14 +40,14 @@ export default defineConfigWithTheme<ThemeConfig>({
       root: {
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'Examples', link: '/markdown-examples' }
+          { text: 'Examples', link: '/01-Foreword' }
         ],
         sidebar: [
           {
             text: 'Examples',
             items: [
-              { text: 'Markdown Examples', link: '/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/api-examples' }
+              { text: 'Markdown Examples', link: '/01-Foreword' },
+              { text: '运行时 API 示例', link: '/zh_CN/02-Install_Unity_And_Rider' }
             ]
           }
         ]
@@ -56,14 +56,14 @@ export default defineConfigWithTheme<ThemeConfig>({
       zh_CN: {
         nav: [
           { text: '首页', link: '/zh_CN/' },
-          { text: '示例', link: '/zh_CN/markdown-examples' }
+          { text: '示例', link: '/zh_CN/01-Foreword' }
         ],
         sidebar: [
           {
             text: '示例',
             items: [
-              { text: 'Markdown 示例', link: '/zh_CN/markdown-examples' },
-              { text: '运行时 API 示例', link: '/zh_CN/api-examples' }
+              { text: 'Markdown 示例', link: '/zh_CN/01-Foreword' },
+              { text: '运行时 API 示例', link: '/zh_CN/02-Install_Unity_And_Rider' }
             ]
           }
         ]
@@ -72,14 +72,14 @@ export default defineConfigWithTheme<ThemeConfig>({
       zh_TW: {
         nav: [
           { text: '首頁', link: '/zh_TW/' },
-          { text: '範例', link: '/zh_TW/markdown-examples' }
+          { text: '範例', link: '/zh_TW/01-Foreword' }
         ],
         sidebar: [
           {
             text: '範例',
             items: [
-              { text: 'Markdown 範例', link: '/zh_TW/markdown-examples' },
-              { text: '執行階段 API 範例', link: '/zh_TW/api-examples' }
+              { text: 'Markdown 範例', link: '/zh_TW/01-Foreword' },
+              { text: '執行階段 API 範例', link: '/zh_TW/02-Install_Unity_And_Rider' }
             ]
           }
         ]
