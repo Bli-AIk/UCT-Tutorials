@@ -16,7 +16,7 @@ hero:
       link: /markdown-examples
     - theme: alt
       text: 访问 UCT 主页
-      link: /api-examples
+      link: https://github.com/Bli-AIk/Undertale-Changer-Template
 
 features:
   - title: 基于 Unity 引擎
