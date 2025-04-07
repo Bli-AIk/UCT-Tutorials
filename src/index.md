@@ -8,7 +8,7 @@ hero:
   tagline: An Undertale fan game template built on the Unity engine.<br>
   icon: ❤️
   image:
-    src: ./bg.svg
+    src: /bg.svg
     alt: Banner
   actions:
     - theme: brand
