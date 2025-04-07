@@ -5,7 +5,7 @@ import baseConfig from 'vitepress-carbon/config'
 // https://vitepress.dev/reference/site-config
 export default defineConfigWithTheme<ThemeConfig>({
   extends: baseConfig,
-  title: "My Awesome Project",
+  title: "Undertale Changer Template 教程",
   description: "A VitePress Site",
   srcDir: 'src',
   //base: '/vitepress-carbon-template/', if running on github-pages, set repository name here

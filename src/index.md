@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "UCT教程"
+  text: "Undertale Changer Template"
+  tagline: 一个基于 Unity 引擎的<br>Unertale 同人游戏模板。
   icon: 🛠️
   image:
     src: ./bg.svg
     alt: Banner
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 哇哦
       link: /markdown-examples
     - theme: alt
       text: API Examples
