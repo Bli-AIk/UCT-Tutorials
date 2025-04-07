@@ -8,7 +8,7 @@ hero:
   tagline: 一个基于 Unity 引擎的<br>Unertale 同人游戏模板。
   icon: ❤️
   image:
-    src: ./bg.svg
+    src: /bg.svg
     alt: Banner
   actions:
     - theme: brand
