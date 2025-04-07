@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: 开始学习之旅
-      link: /01-Foreword
+      link: ./01-Foreword
     - theme: alt
       text: 访问 UCT 主页
       link: https://github.com/Bli-AIk/Undertale-Changer-Template
