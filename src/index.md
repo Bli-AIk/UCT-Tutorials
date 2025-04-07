@@ -20,7 +20,7 @@ hero:
 
 features:
   - title: 基于 Unity 引擎
-    details: 使用通用渲染管线，支持2D光照、3D模型和Live2D。
+    details: 使用通用渲染管线，支持 2D 光照、 3D 模型和 Live2D 。
   - title: 完全本地化支持
     details: 通过外接语言包系统，提供完善的本地化支持。
   - title: 全流程 / 风格化开发
