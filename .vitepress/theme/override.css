@@ -23,7 +23,7 @@
 .home-hero .text {
     font-size: 1.5rem;
     background-image: linear-gradient(to bottom, rgb(241,83,246) 0%, rgb(241,83,246) 40%, rgb(36,55,204) 100%);
-    background-size: 100% 2em;
+    background-size: 100% 1.75em;
     background-repeat: repeat-y;
     background-clip: text;
     -webkit-background-clip: text;
