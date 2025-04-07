@@ -6,24 +6,24 @@ hero:
   name: "UCT教程"
   text: "Undertale Changer Template"
   tagline: 一个基于 Unity 引擎的<br>Unertale 同人游戏模板。
-  icon: 🛠️
+  icon: ❤️
   image:
     src: ./bg.svg
     alt: Banner
   actions:
     - theme: brand
-      text: 哇哦
+      text: 开始学习之旅
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 访问 UCT 主页
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 基于 Unity 引擎
+    details: 使用通用渲染管线，支持2D光照、3D模型和Live2D。
+  - title: 完全本地化支持
+    details: 通过外接语言包系统，提供完善的本地化支持。
+  - title: 全流程 / 风格化开发
+    details: 面向全流程和风格化开发，基于 GPLv3 协议完全开源。
 ---
 
