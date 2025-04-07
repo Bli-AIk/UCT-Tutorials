@@ -1,43 +1,13 @@
-import { defineConfigWithTheme } from 'vitepress'
-import type { ThemeConfig } from 'vitepress-carbon'
-import baseConfig from 'vitepress-carbon/config'
+import { defineConfig } from 'vitepress'
 
-export default defineConfigWithTheme<ThemeConfig>({
-  extends: baseConfig,
-  title: "Undertale Changer Template Tutorials",
-  description: "A VitePress Site",
+export default defineConfig({
   srcDir: 'src',
-  base: '/UCT-Tutorials/',
-
   locales: {
     root: {
       label: 'English',
-      lang: 'en-US',
+      lang: 'en',
       link: '/',
-    },
-    zh_CN: {
-      label: '简体中文',
-      lang: 'zh-CN',
-      link: '/zh_CN/',
-    },
-    zh_TW: {
-      label: '繁體中文',
-      lang: 'zh-TW',
-      link: '/zh_TW/',
-    }
-  },
-
-  themeConfig: {
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/Bli-AIk/UCT-Tutorials' }
-    ],
-
-    search: {
-      provider: 'local'
-    },
-
-    locales: {
-      root: {
+      themeConfig: {
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Examples', link: '/01-Foreword' }
@@ -47,13 +17,17 @@ export default defineConfigWithTheme<ThemeConfig>({
             text: 'Examples',
             items: [
               { text: 'Markdown Examples', link: '/01-Foreword' },
-              { text: '运行时 API 示例', link: '/zh_CN/02-Install_Unity_And_Rider' }
+              { text: 'Runtime API Example', link: '/02-Install_Unity_And_Rider' }
             ]
           }
         ]
-      },
-
-      zh_CN: {
+      }
+    },
+    'zh_CN': {
+      label: '简体中文',
+      lang: 'zh_CN',
+      link: '/zh_CN/',
+      themeConfig: {
         nav: [
           { text: '首页', link: '/zh_CN/' },
           { text: '示例', link: '/zh_CN/01-Foreword' }
@@ -67,9 +41,13 @@ export default defineConfigWithTheme<ThemeConfig>({
             ]
           }
         ]
-      },
-
-      zh_TW: {
+      }
+    },
+    'zh_TW': {
+      label: '繁體中文',
+      lang: 'zh_TW',
+      link: '/zh_TW/',
+      themeConfig: {
         nav: [
           { text: '首頁', link: '/zh_TW/' },
           { text: '範例', link: '/zh_TW/01-Foreword' }
@@ -84,6 +62,14 @@ export default defineConfigWithTheme<ThemeConfig>({
           }
         ]
       }
+    }
+  },
+  themeConfig: {
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/Bli-AIk/UCT-Tutorials' }
+    ],
+    search: {
+      provider: 'local'
     }
   }
 })
