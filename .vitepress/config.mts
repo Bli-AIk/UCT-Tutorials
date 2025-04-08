@@ -3,6 +3,10 @@ import type { ThemeConfig } from 'vitepress-carbon'
 import baseConfig from 'vitepress-carbon/config'
 
 export default defineConfigWithTheme<ThemeConfig>({
+head: [
+    ['link', { rel: 'icon', href: '/logo.png' }] 
+  ]
+  
   extends: baseConfig,
   title: "UCT Tutorials",
   description: "Undertale Changer Template Tutorials",
@@ -10,6 +14,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   base: '/UCT-Tutorials/',
 
   themeConfig: {
+    logo: '/logo.png',
     nav: [
       {
         text: 'Languages',
