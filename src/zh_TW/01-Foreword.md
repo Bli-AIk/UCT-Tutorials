@@ -5,80 +5,80 @@ sidebar: true
 ---
 
 # 前言
-欢迎！这里是 UCT 的官方教程文档的第一章。
+歡迎！這裡是 UCT 的官方教程文檔的第一章。
 
 ![FullLogo](/01/FullLogo.png)
 
-## 教程大纲
+## 教程大綱
 
-本教程旨在详细介绍 **Undertale Changer Template**（下文简称为UCT） 的基本概念、优势、以及如何快速上手。
+本教程旨在詳細介紹 **Undertale Changer Template**（下文簡稱為UCT） 的基本概念、優勢、以及如何快速上手。
 
-**UCT** 是一款基于 **Unity 引擎**，使用 **通用渲染管线**（URP） 的，针对**Undertale同人游戏**的，面向 **全流程开发** 或 **风格化开发** 的 **二次创作模板**，专为满足项目中对 **全流程游戏开发**、 **3D 效果**、**Live2D** 等高级功能需求而设计。
+**UCT** 是一款基於 **Unity 引擎**，使用 **通用渲染管線**（URP） 的，針對**Undertale同人遊戲**的，面向 **全流程開發** 或 **風格化開發** 的 **二次創作模板**，專為滿足專案中對 **全流程遊戲開發**、 **3D 效果**、**Live2D** 等高級功能需求而設計。
 
-其主要特点包括：
+其主要特點包括：
 
-- **基于 Unity 引擎**
-- **2D 光照与 3D 模型支持**
-- **完全开源**  （基于 **GNU GPLv3** 开源协议，详见注意事项）
-- **支持社区扩展**
+- **基於 Unity 引擎**
+- **2D 光照與 3D 模型支持**
+- **完全開源**  （基於 **GNU GPLv3** 開源協議，詳見注意事項）
+- **支持社群擴展**
 - **本地化支持完善**
 
 > [!WARNING]
-> 对于只需开发 **单个战斗或简单场景** 的用户来说，UCT可能并非最佳选择——在这种情况下，基于 [**Undertale Engine**](https://github.com/TML233/UndertaleEngine) 或 [**Create Your Frisk**](https://github.com/RhenaudTheLukark/CreateYourFrisk) 等项目进行开发可能更加合适。
+> 對於只需開發 **單個戰鬥或簡單場景** 的用戶來說，UCT 可能並非最佳選擇——在這種情況下，基於 [**Undertale Engine**](https://github.com/TML233/UndertaleEngine) 或 [**Create Your Frisk**](https://github.com/RhenaudTheLukark/CreateYourFrisk) 等專案進行開發可能更加合適。
 
-但如果您希望突破传统框架，体验 **全流程开发** 或 **风格化开发** ，那么UCT无疑将为您带来更具吸引力的解决方案。
+但如果您希望突破傳統框架，體驗 **全流程開發** 或 **風格化開發** ，那麼UCT無疑將為您帶來更具吸引力的解決方案。
 
 ## 使用要求
-在使用 UCT 之前，建议您具备以下基础知识：
+在使用 UCT 之前，建議您具備以下基礎知識：
 
-- **C# 基础**
-- **Unity 引擎基础**
-- **游戏设计模式**（可选）
-- **Git 基础** （可选）
+- **C# 基礎**
+- **Unity 引擎基礎**
+- **遊戲設計模式**（可選）
+- **Git 基礎** （可選）
 
-在本教程中，一部分涉及C#基础的，以及关于Unity引擎的基本使用方法的内容，会在教程中简要地进行介绍。但我仍然建议您先去初步学习C#和Unity引擎，以便在学习时能够更好地理解。
+在本教程中，一部分涉及C#基礎的，以及關於Unity引擎的基本使用方法的內容，會在教程中簡要地進行介紹。但我仍然建議您先去初步學習C#和Unity引擎，以便在學習時能夠更好地理解。
 
-对于 UCT 使用的游戏设计模式，在后续教程中涉及时，会简要进行说明。
+對於 UCT 使用的遊戲設計模式，在後續教程中涉及时，會簡要進行說明。
 
-关于 Git 的操作将在后续章节中进行详细讲解。
+關於 Git 的操作將在後續章節中進行詳細講解。
 
-## 基础教程推荐
+## 基礎教程推薦
 
-如果您没有 **C#基础知识** 或 **Unity引擎基础知识**，可以尝试查阅以下相关资料。
-
-> [!NOTE]
-> 以下资料来自网络，侵权删除。
-
-- [C# 教程 | 菜鸟教程](https://www.runoob.com/csharp/csharp-tutorial.html)
-- [C#基础 + WinForms | 哔哩哔哩](https://b23.tv/rpI6nBe)
-- [Unity2D官方入门教程 Ruby' Adventure 完整版~ | 哔哩哔哩](https://b23.tv/fjuYzLz)
-- [Git 教程 | 菜鸟教程](https://www.runoob.com/git/git-tutorial.html)
-
-## 常用网站推荐
-在Unity相关的开发过程中如果遇到问题，可以去以下网站查阅相关资料。
-- [Unity 脚本 API](https://docs.unity.cn/cn/2021.3/ScriptReference/index.html)
-- [Unity 手册](https://docs.unity.cn/cn/2021.3/Manual/index.html)
-- [通用渲染管线文档](https://docs.unity3d.com/cn/Packages/com.unity.render-pipelines.universal@12.1/manual/index.html)
-
-## 教程目标与内容
-本教程的主要目标是引导您理解 **UCT** 的 **创作思路** 与 **使用方式**，为后续的开发打下坚实基础。
-
-具体内容包括：
-
-- **原作解析**：通过解析Undertale原作要素，详细展示 UCT 实现全流程项目开发的设计思路。
-- **场景模块介绍**：涵盖 Overworld、Battle 部分、设置页面等场景模块的详细讲解。
-- **基础开发与拓展**：通过模板现有的内容进行开发——从解密房间、剧情对话，再到怪物战斗和Boss战斗。
-
-本系列教程以 UCT 模板为主线，您可以根据实际需要选择学习全部或部分内容。
-
-## 学习建议
-- **如果你更希望做小规模项目**：去使用[**Undertale Engine**](https://github.com/TML233/UndertaleEngine) 或 [**Create Your Frisk**](https://github.com/RhenaudTheLukark/CreateYourFrisk)，而不是UCT。
-- **如果你是初学者**：建议先学习相关基础知识，再进行深入学习。
-- **如果你具备一定编程基础**：本教程的内容也许能更容易理解。
+如果您沒有 **C#基礎知識** 或 **Unity引擎基礎知識**，可以嘗試查閱以下相關資料。
 
 > [!NOTE]
-> 请您认真思考：**您是否准备好打破常规、迎接挑战？**
+> 以下資料來自網路，侵權刪除。
 
-如果答案是肯定的，那么请继续深入学习，探索如何利用 UCT 创造出全新且富有艺术性的作品。
+- [C# 教程 | 菜鳥教程](https://www.runoob.com/csharp/csharp-tutorial.html)
+- [C#基礎 + WinForms | 哔哩哔哩](https://b23.tv/rpI6nBe)
+- [Unity2D官方入門教程 Ruby' Adventure 完整版~ | 哔哩哔哩](https://b23.tv/fjuYzLz)
+- [Git 教程 | 菜鳥教程](https://www.runoob.com/git/git-tutorial.html)
 
-期待在接下来的章节中与您共同进步。
+## 常用網站推薦
+在Unity相關的開發過程中如果遇到問題，可以去以下網站查閱相關資料。
+- [Unity 腳本 API](https://docs.unity.cn/cn/2021.3/ScriptReference/index.html)
+- [Unity 手冊](https://docs.unity.cn/cn/2021.3/Manual/index.html)
+- [通用渲染管線文檔](https://docs.unity3d.com/cn/Packages/com.unity.render-pipelines.universal@12.1/manual/index.html)
+
+## 教程目標與內容
+本教程的主要目標是引導您理解 **UCT** 的 **創作思路** 與 **使用方式**，為後續的開發打下堅實基礎。
+
+具體內容包括：
+
+- **原作解析**：通過解析Undertale原作要素，詳細展示 UCT 實現全流程專案開發的設計思路。
+- **場景模塊介紹**：涵蓋 Overworld、Battle 部分、設置頁面等場景模塊的詳細講解。
+- **基礎開發與拓展**：通過模板現有的內容進行開發——從解密房間、劇情對話，再到怪物戰鬥和Boss戰鬥。
+
+本系列教程以 UCT 模板為主線，您可以根據實際需要選擇學習全部或部分內容。
+
+## 學習建議
+- **如果你更希望做小規模專案**：去使用[**Undertale Engine**](https://github.com/TML233/UndertaleEngine) 或 [**Create Your Frisk**](https://github.com/RhenaudTheLukark/CreateYourFrisk)，而不是UCT。
+- **如果你是初學者**：建議先學習相關基礎知識，再進行深入學習。
+- **如果你具備一定編程基礎**：本教程的內容也許能更容易理解。
+
+> [!NOTE]
+> 請您認真思考：**您是否準備好打破常規、迎接挑戰？**
+
+如果答案是肯定的，那麼請繼續深入學習，探索如何利用 UCT 創造出全新且富有藝術性的作品。
+
+期待在接下來的章節中與您共同進步。

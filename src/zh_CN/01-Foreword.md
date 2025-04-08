@@ -46,7 +46,7 @@ sidebar: true
 
 如果您没有 **C#基础知识** 或 **Unity引擎基础知识**，可以尝试查阅以下相关资料。
 
-> [!NOTE]
+> [!TIP]
 > 以下资料来自网络，侵权删除。
 
 - [C# 教程 | 菜鸟教程](https://www.runoob.com/csharp/csharp-tutorial.html)
