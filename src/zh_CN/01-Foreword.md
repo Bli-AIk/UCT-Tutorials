@@ -5,7 +5,7 @@ sidebar: true
 ---
 
 # 前言
-欢迎！这里是 UCT 的官方教程文档的第一章。
+欢迎！这里是 UCT 官方教学文档的第一章。
 
 ![FullLogo](/01/FullLogo.png)
 
