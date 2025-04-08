@@ -3,7 +3,7 @@ import type { ThemeConfig } from 'vitepress-carbon'
 import baseConfig from 'vitepress-carbon/config'
 
 export default defineConfigWithTheme<ThemeConfig>({
-head: [
+  head: [
     ['link', { rel: 'icon', href: '/logo.png' }] 
   ],
   extends: baseConfig,
@@ -14,6 +14,9 @@ head: [
 
   themeConfig: {
     logo: '/logo.png',
+    footer: {
+      message: '© 2025 Bli_AIk. All rights reserved.'
+    },
     nav: [
       {
         text: 'Languages',
