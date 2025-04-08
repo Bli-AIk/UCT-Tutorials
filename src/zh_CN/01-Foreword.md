@@ -27,7 +27,7 @@ sidebar: true
 - **支持社区扩展**
 - **本地化支持完善**
 
-> [!WARNING]
+> [!WARNING] ⚠️ 但请你先好好想想……
 > 对于只需开发 **单个战斗或简单场景** 的用户来说，UCT可能并非最佳选择——在这种情况下，基于 [**Undertale Engine**](https://github.com/TML233/UndertaleEngine) 或 [**Create Your Frisk**](https://github.com/RhenaudTheLukark/CreateYourFrisk) 等项目进行开发可能更加合适。
 
 但如果您希望突破传统框架，体验 **全流程开发** 或 **风格化开发** ，那么UCT无疑将为您带来更具吸引力的解决方案。
@@ -50,7 +50,7 @@ sidebar: true
 
 如果您没有 **C#基础知识** 或 **Unity引擎基础知识**，可以尝试查阅以下相关资料。
 
-> [!TIP]
+> [!TIP] 💡 哦对了
 > 以下资料来自网络，侵权删除。
 
 - [C# 教程 | 菜鸟教程](https://www.runoob.com/csharp/csharp-tutorial.html)
@@ -80,7 +80,7 @@ sidebar: true
 - **如果你是初学者**：建议先学习相关基础知识，再进行深入学习。
 - **如果你具备一定编程基础**：本教程的内容也许能更容易理解。
 
-> [!NOTE]
+> [!NOTE]🖊 寻思一下
 > 请您认真思考：**您是否准备好打破常规、迎接挑战？**
 
 如果答案是肯定的，那么请继续深入学习，探索如何利用 UCT 创造出全新且富有艺术性的作品。

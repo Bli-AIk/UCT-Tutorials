@@ -4,13 +4,16 @@ title: 02-Install_Unity_And_Rider
 sidebar: true
 ---
 
-> [!WARNING]
+> [!WARNING] ⚠️ 你先别急
 > **本页面正在施工，目前的内容为草稿，可能进行修改。**
 
+<img src="/02/Head.png" alt="Head" style="width:50%; border-radius:16px; display: block; margin-left: auto; margin-right: auto;" />
+
+---
 # 安装 Unity 与 IDE
 **UCT** 是一个基于 **Unity 国际版 2021.3.15f1** 开发的 Undertale 同人游戏模板。
 
-或者，简单来说：**UCT** 是一个 **Unity 项目**，所以我们当然需要先安装 Unity 才能使用它。
+或者，简单来说：**UCT** 是一个 **Unity 项目**，所以我们当然需要先 **安装 Unity** 才能使用它。
 
 要开发 Unity 项目，你需要安装 **Unity Hub** 和 **Unity Editor**，并选择一个合适的 **IDE**（代码编辑器）作为开发工具。
 
@@ -28,29 +31,42 @@ sidebar: true
 
 准备好了吗？让我们开始吧。
 
-## 中国版？国际版？
+## Unity **中国版**？还是 **国际版**？
+> [!TIP] 💡 哦对了
+> 这小节的内容旨在为下一小节做好铺垫。
 
-在正式开始前，需要特别注意：  
+**在正式开始前，请你特别注意：**  
 
-Unity 分为 **中国版** 和 **国际版**，两者在服务与功能支持上存在差异。
+Unity 分为 **中国版** 和 **国际版**，两者在服务与功能支持上 **存在差异**，混用容易出现 **兼容性问题**。
 
-> [!WARNING]
+> [!WARNING] ⚠️ 警告！
 > UCT 仅支持 **Unity 国际版 2021.3.15f1**，请务必使用该版本，避免出现兼容性问题。
 
-> [!NOTE]
-> 在中国大陆环境直接访问 Unity 官网时，可能默认跳转至 **中国版** 页面。<br>尽管你也可以在国际版官网下载unity，但中国大陆环境下，你下载到的 Unity Hub 和 Unity Editor 也可能是中国版。
+### 如何判断你是否安装了中国版 Unity？
+> [!WARNING] ⚠️ 注意嗷！
+> **此处的内容对于中国大陆用户而言，应当着重注意。**
 
-**如何判断是否安装了中国版 Unity？**
+**对于Unity Editor：**<br>
+&emsp;&emsp;查看你的 **Unity Editor** 版本号：如果版本号中包含 “c1”、“c2” 等后缀，那你很可能安装了**中国版的 Unity Editor**。
 
-对于Unity Editor：
-查看你的 **Unity Editor** 版本号：如果版本号中包含 “c1”、“c2” 等后缀，那你很可能安装了**中国版的 Unity Editor**。
+**对于Unity Hub：**<br>
+&emsp;&emsp;**如果 Unity Hub 只能安装带有“c1” “c2”等后缀的版本**，说明你使用的也是**中国版 Unity Hub**。
 
-**如果 Unity Hub 只能安装带有“c1” “c2”等后缀的版本**，说明你使用的也是**中国版 Unity Hub**。  
-这种情况下，建议**卸载当前 Hub 并安装国际版**，以获得更全面的版本支持和更好的兼容性。
+---
+
+也许你认为你眼力很尖，也可能你动手能力很强，能直接去找**国际版官网**，但——
+> [!CAUTION] ⛔ 劲爆尾杀（划
+> 在 **中国大陆网络环境** 直接访问 Unity 官网时，可能默认跳转至 **中国版** 页面。<br>尽管你也可以在国际版官网下载unity，但在 **中国大陆网络环境** 下，你下载到的 Unity Hub 和 Unity Editor 也可能是中国版。
+
 
 **那么，如何安装Unity国际版呢？**
-- 如果你是港澳台/海外用户，或者全程使用科学上网环境的中国大陆用户，请确保在下一步访问的是 [Unity 国际版官网](https://unity.com/)（unity.com 而非 unity.cn），以保证你获取的是国际版资源。
-- 如果你没有下载国际版资源的能力，**推荐加入 UCT 官方交流群**（QQ群），在群文件获取国际版 Unity Hub 安装包，以确保版本一致。
+- 如果你是 **港澳台/海外** 用户，或者全程使用 **科学上网环境** 的中国大陆用户，请确保在下一小节的教程中，访问的是 [Unity 国际版官网(unity.com)](https://unity.com/)（而非 unity.cn），以保证你获取的是国际版资源。
+- 如果你没有下载国际版资源的能力，推荐加入 [**UCT 官方交流群**](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=wK7VVbI0VU8mPpG94nDLsHaLRbky5cMT&authKey=LQfQsHtXTqbrRdmhSgUtxesNz9UmiETjymrhJF%2BFT1pAiEy0HUxSfM%2Fx%2FsTdOUC%2F&noverify=0&group_code=289694657)，在 **群文件** 获取国际版 Unity Hub 安装包，以确保版本一致。
+
+::: details ❔ 对此还有任何问题么？
+可以参考一下[这篇博客](https://blog.csdn.net/Blueberry124/article/details/146460097)（侵权删除）<br>
+或者，可以在 UCT 的 QQ群 / Discord 服务器 中礼貌地进行询问。
+:::
 
 ## 准备 Unity Hub 与 Unity 编辑器
 
