@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "UCT 教程"
+  name: "UCT 教学文档"
   text: "Undertale Changer Template"
   tagline: 一个基于 Unity 引擎的<br>Unertale 同人游戏模板。
   icon: 图
