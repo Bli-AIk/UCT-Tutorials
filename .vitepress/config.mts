@@ -32,8 +32,8 @@ export default defineConfigWithTheme<ThemeConfig>({
         {
           text: 'Introduction and Preparation',
           items: [
-            { text: 'Foreword', link: '/01-Foreword' },
-            { text: 'Install Unity and Rider', link: '/02-Install_Unity_And_Rider' }
+            { text: '01-Foreword', link: '/01-Foreword' },
+            { text: '02-Install Unity and IDE', link: '/02-Install_Unity_And_IDE' }
           ]
         }
       ],
@@ -41,8 +41,8 @@ export default defineConfigWithTheme<ThemeConfig>({
         {
           text: '介绍与准备',
           items: [
-            { text: '前言', link: '/zh_CN/01-Foreword' },
-            { text: '安装 Unity 与 Rider', link: '/zh_CN/02-Install_Unity_And_Rider' }
+            { text: '01-前言', link: '/zh_CN/01-Foreword' },
+            { text: '02-安装 Unity 与 IDE', link: '/zh_CN/02-Install_Unity_And_IDE' }
           ]
         }
       ],
@@ -50,8 +50,8 @@ export default defineConfigWithTheme<ThemeConfig>({
         {
           text: '介紹與準備',
           items: [
-            { text: '前言', link: '/zh_TW/01-Foreword' },
-            { text: '安裝 Unity 與 Rider', link: '/zh_TW/02-Install_Unity_And_Rider' }
+            { text: '01-前言', link: '/zh_TW/01-Foreword' },
+            { text: '02-安裝 Unity 與 IDE', link: '/zh_TW/02-Install_Unity_And_IDE' }
           ]
         }
       ]

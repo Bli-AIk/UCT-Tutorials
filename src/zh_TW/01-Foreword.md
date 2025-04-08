@@ -4,7 +4,11 @@ title: 01-Foreword
 sidebar: true
 ---
 
+<img src="/01/Head.png" alt="Head" style="width:50%; border-radius:16px; display: block; margin-left: auto; margin-right: auto;" />
+
+---
 # 前言
+
 歡迎！這裡是 UCT 官方教學檔案的第一章。
 
 ![FullLogo](/01/FullLogo.png)

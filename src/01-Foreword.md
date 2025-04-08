@@ -4,7 +4,11 @@ title: 01-Foreword
 sidebar: true
 ---
 
+<img src="/01/Head.png" alt="Head" style="width:50%; border-radius:16px; display: block; margin-left: auto; margin-right: auto;" />
+
+---
 # Foreword
+
 Welcome! This is the first chapter of the official tutorial documentation for UCT.
 
 ![FullLogo](/01/FullLogo.png)

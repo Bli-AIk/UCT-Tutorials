@@ -91,6 +91,21 @@
     }
 }
 
+.VPImage.logo{
+    animation: breathe_small 5s infinite ease-in-out; /* 呼吸灯效果 */
+}
+
+@keyframes breathe_small {
+    0% {
+        filter: drop-shadow(0 0 5px rgba(177, 84, 243, 0.25));
+    }
+    50% {
+        filter: drop-shadow(0 0 10px rgba(177, 84, 243, 0.4));
+    }
+    100% {
+        filter: drop-shadow(0 0 5px rgba(177, 84, 243, 0.25));
+    }
+}
 
 .glowing-icon-glow {
     background: rgba(197, 104, 255, 0.25) !important;
