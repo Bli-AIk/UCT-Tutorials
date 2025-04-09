@@ -11,6 +11,8 @@ sidebar: true
 
 欢迎！这里是 UCT 官方教学文档的第一章。
 
+本文档基于 **UCT v1.0.7** 进行编写。
+
 ![FullLogo](/01/FullLogo.png)
 
 ## 教程大纲
