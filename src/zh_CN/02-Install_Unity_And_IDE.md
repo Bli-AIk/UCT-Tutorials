@@ -44,11 +44,11 @@ sidebar: true
 > [!WARNING] ⚠️ 注意嗷！
 > **此处的内容对于中国大陆用户而言，应当着重注意。**
 
-**对于Unity Editor：**<br>
-&emsp;&emsp;查看你的 **Unity Editor** 版本号：如果版本号中包含 “c1”、“c2” 等后缀，那你很可能安装了**中国版的 Unity Editor**。
+**对于Unity Editor：**
+- 查看你的 **Unity Editor** 版本号：如果版本号中包含 “c1”、“c2” 等后缀，那你很可能安装了**中国版的 Unity Editor**。
 
-**对于Unity Hub：**<br>
-&emsp;&emsp;**如果 Unity Hub 只能安装带有“c1” “c2”等后缀的版本**，说明你使用的也是**中国版 Unity Hub**。
+**对于Unity Hub：**
+- **如果 Unity Hub 只能安装带有“c1” “c2”等后缀的版本**，说明你使用的也是**中国版 Unity Hub**。
 
 ---
 
