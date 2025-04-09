@@ -40,6 +40,8 @@ sidebar: true
 > [!WARNING] ⚠️ 警告！
 > UCT 仅支持 **Unity 国际版 2021.3.15f1**，请务必使用该版本，避免出现兼容性问题。
 
+---
+
 ### 如何判断你是否安装了中国版 Unity？
 > [!WARNING] ⚠️ 注意嗷！
 > **此处的内容对于中国大陆用户而言，应当着重注意。**
@@ -67,7 +69,8 @@ sidebar: true
 :::
 
 ## 准备安装 Unity
-在这一小节，我们就要去安装Unity了！让我们打开浏览器，进入 [unity.com](https://unity.com/)！（**一定要注意不是 unity.cn ！**）
+在这一小节，我们就要去安装Unity了！<br>
+让我们打开浏览器，进入 [unity.com](https://unity.com/)！（**一定要注意不是 unity.cn ！**）
 
 你会看到这样的一个主页：
 
