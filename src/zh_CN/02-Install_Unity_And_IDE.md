@@ -45,10 +45,10 @@ sidebar: true
 > **此处的内容对于中国大陆用户而言，应当着重注意。**
 
 **对于Unity Editor：**
-- 查看你的 **Unity Editor** 版本号：如果版本号中包含 “c1”、“c2” 等后缀，那你很可能安装了**中国版的 Unity Editor**。
+- 查看你的 **Unity Editor** 版本号：如果版本号中包含  **“c1”、“c2” 等后缀**，那你很可能安装了**中国版的 Unity Editor**。
 
 **对于Unity Hub：**
-- **如果 Unity Hub 只能安装带有“c1” “c2”等后缀的版本**，说明你使用的也是**中国版 Unity Hub**。
+- 如果 Unity Hub 只能安装带有 **“c1” “c2”等后缀** 的版本，说明你使用的也是**中国版 Unity Hub**。
 
 ---
 
@@ -66,7 +66,13 @@ sidebar: true
 或者，可以在 UCT 的 QQ群 / Discord 服务器 中礼貌地进行询问。
 :::
 
-## 准备 Unity Hub 与 Unity 编辑器
+## 准备安装 Unity
+在这一小节，我们就要去安装Unity了！让我们打开浏览器，进入 [unity.com](https://unity.com/)！（**一定要注意不是 unity.cn ！**）
+
+你会看到这样的一个主页：
+
+**IMAGE**
+
 
 你可能会疑惑——Unity 我知道，但是——
 - Unity Hub 是什么呢？
