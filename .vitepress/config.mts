@@ -39,6 +39,12 @@ export default defineConfigWithTheme<ThemeConfig>({
       ],
       '/zh_CN/': [
         {
+          text: '关于此教程',
+          items: [
+            { text: '00-写在正式开始前的话', link: '/zh_CN/00-Before_We_Officially_Begin' }
+          ]
+        },
+        {
           text: '引言与准备',
           items: [
             { text: '01-前言', link: '/zh_CN/01-Foreword' },
