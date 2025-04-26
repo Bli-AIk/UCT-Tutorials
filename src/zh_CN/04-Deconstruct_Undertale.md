@@ -7,6 +7,10 @@ sidebar: true
 > [!WARNING] ⚠️ 你先别急
 > **本页面正在施工，目前的内容为草稿，可能进行修改。**
 
+<img src="/04/Head.png" alt="Head" style="width:50%; border-radius:16px; display: block; margin-left: auto; margin-right: auto;" />
+
+---
+
 # 解构原作
 进行二次创作的第一步，往往是理解和拆解原作的结构。
 

@@ -7,6 +7,10 @@ sidebar: true
 > [!WARNING] ⚠️ 你先别急
 > **本页面正在施工，目前的内容为草稿，可能进行修改。**
 
+<img src="/03/Head.png" alt="Head" style="width:50%; border-radius:16px; display: block; margin-left: auto; margin-right: auto;" />
+
+---
+
 # 配置 Git 与下载 UCT
 在使用 UCT 进行开发之前，配置好 Git 版本管理工具是非常重要的一步。
 
