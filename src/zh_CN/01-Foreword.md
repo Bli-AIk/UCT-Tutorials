@@ -32,7 +32,7 @@ sidebar: true
 - **支持社区扩展**
 - **本地化支持完善**
 
-> [!WARNING] ⚠️ 但请你先好好想想……
+> [!WARNING] ⚠️ 但请您先好好想想……
 > 对于只需开发 **单个战斗或简单场景** 的用户来说，UCT可能并非最佳选择——在这种情况下，基于 [**Undertale Engine**](https://github.com/TML233/UndertaleEngine) 或 [**Create Your Frisk**](https://github.com/RhenaudTheLukark/CreateYourFrisk) 等项目进行开发可能更加合适。
 
 但如果您希望突破传统框架，体验 **全流程开发** 或 **风格化开发** ，那么UCT无疑将为您带来更具吸引力的解决方案。
@@ -45,15 +45,15 @@ sidebar: true
 - **游戏设计模式**（可选）
 - **Git 基础** （可选）
 
-在本教程中，一部分涉及C#基础的，以及关于Unity引擎的基本使用方法的内容，会在教程中简要地进行介绍。但我仍然**强烈建议**您先去初步学习C#和Unity引擎，以便在学习时能够更好地理解。
+本教程在需要时，会对部分 C# 与 Unity 引擎知识（如接口、协程等）进行简要讲解，或提供参考资料链接。
+但我仍然强烈建议您在学习本教程之前，先对 C# 和 Unity 有一定的基础了解，以便能够更顺利地掌握后续内容。
 
-对于 UCT 使用的游戏设计模式，在后续教程中涉及时，会简要进行说明。
-
-关于 Git 的操作将在后续章节中进行详细讲解。
+对于 UCT 中使用到的游戏设计模式，其相关内容将在后续章节中根据需要简要说明，或提供参考资料链接。
+至于 Git 的基础操作，则会在后续单独章节中进行详细讲解。
 
 ## 基础教程推荐
 
-如果您没有 **C#基础知识** 或 **Unity引擎基础知识**，可以尝试查阅以下相关资料。
+如果您没有 **C# 基础知识** 或 **Unity 引擎基础知识**，可以尝试查阅以下相关资料。
 
 > [!TIP] 💡 哦对了
 > 以下资料来自网络，侵权删除。
@@ -81,9 +81,9 @@ sidebar: true
 本系列教程以 UCT 模板为主线，您可以根据实际需要选择学习全部或部分内容。
 
 ## 学习建议
-- **如果你更希望做小规模项目**：去使用[**Undertale Engine**](https://github.com/TML233/UndertaleEngine) 或 [**Create Your Frisk**](https://github.com/RhenaudTheLukark/CreateYourFrisk)，而不是UCT。
-- **如果你是初学者**：建议先学习相关基础知识，再进行深入学习。
-- **如果你具备一定编程基础**：本教程的内容也许能更容易理解。
+- **如果您更希望做小规模项目**：去使用[**Undertale Engine**](https://github.com/TML233/UndertaleEngine) 或 [**Create Your Frisk**](https://github.com/RhenaudTheLukark/CreateYourFrisk)，而不是UCT。
+- **如果您是初学者**：建议先学习相关基础知识，再进行深入学习。
+- **如果您具备一定编程基础**：本教程的内容也许能更容易理解。
 
 > [!NOTE]🖊 寻思一下
 > 请您认真思考：**您是否准备好打破常规、迎接挑战？**
