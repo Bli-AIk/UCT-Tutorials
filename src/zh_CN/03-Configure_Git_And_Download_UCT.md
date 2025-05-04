@@ -9,6 +9,9 @@ sidebar: true
 
 <img src="/03/Head.png" alt="Head" style="width:50%; border-radius:16px; display: block; margin-left: auto; margin-right: auto;" />
 
+> [!WARNING] ⚠️ 你先别急
+> **以下内容尚未撰写完成。**
+
 ---
 
 # 配置 Git 与下载 UCT

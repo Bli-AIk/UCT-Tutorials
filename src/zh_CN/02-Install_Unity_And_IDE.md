@@ -84,50 +84,125 @@ sidebar: true
 
 你会看到这样的一个主页：
 
-**IMAGE**
+<img src="/02/UnityWeb0.png" alt="Head" style="display: block; margin: 0 auto;"/>
 
+我们直接点Download就可以——然后，会进入这个页面：
+
+<img src="/02/UnityWeb1.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+哇塞，“全球最受欢迎的开发平台”（大嘘）触手可及啦——我们只要点一下这个下载键，然后！
+
+<img src="/02/UnityWeb2.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+我们得到了——Unity——Hub？
 
 你可能会疑惑——Unity 我知道，但是——
-- Unity Hub 是什么呢？
-- Unity 编辑器又和 Unity 有什么区别呢？
-- 你也许还看到过有人称 Unity 为 Unity **引擎**——对啊，Unity 不是个“游戏引擎”吗？
+- Unity **Hub** 是什么呢？
+- Unity **编辑器** 又和 Unity 有什么区别呢？
+- 你也许还看到过有人称 Unity 为 Unity **引擎** ——对啊，Unity 不是个 **“游戏引擎”** 吗？
 
 我们在这里先简单解释一下这些概念。
 
-### “Unity”到底是什么？
-Unity 实际上由三个部分组成：**Unity Hub**、**Unity 编辑器**和 **Unity 引擎**。
+---
 
-- **Unity Hub** 是一个用来管理 Unity 编辑器版本和项目的**启动器**，你可以通过它安装、卸载不同版本的 Unity 编辑器，并管理你的项目。 **使用 Unity 开发，首先需要安装的就是 Unity Hub。** 
-- **Unity 编辑器（Unity Editor）** 是用于游戏开发的**编辑器软件**，提供了可视化界面、场景编辑等功能。  
+### “Unity”到底是什么？
+Unity 实际上由三个部分组成：**Unity Hub**、**Unity 编辑器** 和 **Unity 引擎**。
+
+- **Unity Hub** 是一个用来管理 Unity 编辑器版本和项目的 **启动器**，你可以通过它安装、卸载不同版本的 **Unity 编辑器**，并管理你的项目。 **使用 Unity 开发，首先需要安装的就是 Unity Hub。** 
+- **Unity 编辑器（Unity Editor）** 是用于游戏开发的 **编辑器软件**，提供了可视化界面、场景编辑等功能。  
 - **Unity 引擎（Unity Engine）** 是负责游戏运行时功能的核心部分，它处理渲染、物理、动画、音频等系统。**它并不是一个软件，且实际上内嵌在 Unity 编辑器中，并在构建后的游戏中运作。**
 
-简单来说：
+> [!NOTE]🖊 简单来说就是：
+>- Unity Hub 是用来下载和管理不同版本的 Unity 编辑器、启动开发环境的工具；
+>- Unity 编辑器是你用来编辑游戏场景的地方；
+>- Unity 引擎是游戏运行时背后的核心，负责处理游戏的渲染、物理引擎，等等。
 
-- Unity Hub 是用来下载和管理不同版本的 Unity 编辑器、启动开发环境的工具；
-- Unity 编辑器是你用来编辑游戏场景的地方；
-- Unity 引擎是游戏运行时背后的核心，负责处理游戏的渲染、物理引擎，等等。
+::: details ❔ 还搞不懂么，那我打个比方...
+我们以 Minecraft 举例：
+- Unity Hub 就像是 Minecraft 的启动器，负责下载和启动不同版本的游戏；
+- Unity 编辑器则像 Minecraft 的一个“地图编辑器”软件，它帮助你设计和编辑游戏世界；
+- 而 Unity 引擎就像 Minecraft 的核心运行时，它负责让游戏能够运行、渲染和交互。
+通过这三者的组合，才能让你的游戏真正运行起来。
+:::
 
 在开发过程中，我们通过 Unity Hub 下载并管理 Unity 编辑器，然后用编辑器进行游戏开发。当你启动项目时，Unity 编辑器会加载项目并进入编辑状态。
 
 在游戏构建（导出）后，Unity 编辑器并不包含在内，只有 Unity 引擎的运行时部分被包含在内，确保游戏能够正常运行。
 
-**举例说明：**  
-我们以 Minecraft 举例：
-- Unity Hub 就像是 Minecraft 的启动器，负责下载和启动不同版本的游戏；
-- Unity 编辑器则像 Minecraft 的一个“地图编辑器”软件，它帮助你设计和编辑游戏世界；
-- 而 Unity 引擎就像 Minecraft 的核心运行时，它负责让游戏能够运行、渲染和交互。
+> [!TIP] 💡 所以捏——
+> 我们要先安装 Unity Hub，然后使用它安装 Unity Editor。这样，Unity 就装好了！
 
-通过这三者的组合，才能让你的游戏真正运行起来。
-### 安装Unity Hub 与 Unity Editor
-安装步骤如下：
+---
 
-1. **下载安装国际版 Unity Hub**
-2. 启动后登录 Unity 账号  
-3. 申请个人许可证（Personal License）
-4. 在设置中调整 **安装路径** 与 **缓存目录**，避免占用系统盘空间
-5. 在“编辑器版本”页面中，下载并安装 **Unity Editor 2021.3.15f1**
+### 安装 Unity Hub
 
-### 安装时可选组件：
+在刚刚，你应当已经下载好 **Unity Hub** 的安装包了——双击它，然后安装，就可以了！
+
+*记住，你需要安装国际版的Unity Hub！*
+
+<img src="/02/UnityWeb3.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+安装唯一需要注意的点就是 **不要安装在非英文字符目录**，此外没什么好说的。
+<br>如果你安装这块都搞不明白，可以洗洗睡了。
+
+安装完后，打开 **Unity Hub**，你会看到这样的界面。
+
+<img src="/02/UnityHub0.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+是的。我们需要一个 **Unity 账号** 才能使用 Unity。
+
+如果你之前有个账号的话，点一下**登录** (Sign in) 即可；
+<br>如果没有账号，那就 **创建账号** (Create account)。
+
+对于账号这里，自行注册登录即可，本教程不再赘述。
+<br>Unity 国际版 和 中国版 账号可能可以互通——但我对此了解不多，所以各位自行斟酌吧。
+<br>~~账号版本这块应该不会导致什么大问题吧家人们~~
+
+---
+
+之后我们就能看到 Unity Hub 的主页——就像这样。
+
+<img src="/02/UnityHub1.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+Unity Hub 中，我们常用的也就三个页面——
+
+> [!TIP] 💡 我们仨
+> - 项目 (Projects)：在这里打开你的任一 **Unity 项目**。
+> - 安装量 (Installs)：在这里安装 **Unity Editor**。
+> - 偏好设置 (Preferences)：在这里 **申请许可证**，修改 **安装路径** 与 **缓存目录**，<br>以及修改 Unity Hub 的**语言**。
+
+唉，这时候你就要问了，我偏好设置搁哪呢——
+
+<img src="/02/UnityHub2.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+在这里，齿轮图标。
+
+我们赶紧把它打开吧！到偏好设置里面改一下可是相当有必要的——**申请许可证**，修改 **安装路径** 与 **缓存目录**，都是很重要的事情——
+<br>毕竟，没有许可证就打不开项目；不改安装路径，那么你的编辑器和项目就要狠狠地吃你的系统盘咯——对不对？
+
+<img src="/02/UnityHub3.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+在这里修改 Unity Hub 使用的语言。
+
+<img src="/02/UnityHub4.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+在这里设置许可证，免费的个人许可证完全就够用了。
+
+<img src="/02/UnityHub5.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+这里设置的是你从 Unity 新建项目的地址，建议改到系统盘之外。
+
+<img src="/02/UnityHub6.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+这里设置的是 Unity Editor 的地址，以及一些下载文件的地址——建议把它们也改到系统盘之外。
+
+Unity Hub 的设置就完成了。接着——我们去安装 Editor！
+
+---
+> [!WARNING] ⚠️ 你先别急
+> **以下内容尚未撰写完成。**
+
+### 安装Unity Editor
 
 - **Android Build Support**：用于导出安卓包  
 - **Documentation**：本地文档（可选）  
@@ -135,7 +210,7 @@ Unity 实际上由三个部分组成：**Unity Hub**、**Unity 编辑器**和 **
 - 默认安装中可能包含 Visual Studio 2019，可选择不安装（如使用 Rider）
 
 
-## 选择合适的 IDE：推荐使用 Rider
+### 选择合适的 IDE
 
 Unity 支持的主流代码编辑器有：
 
