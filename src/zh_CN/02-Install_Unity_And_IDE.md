@@ -36,8 +36,8 @@ sidebar: true
 
 ## Unity 还分 中国版 和 国际版？ 
 > [!WARNING] ⚠️ 注意嗷！
-> 此处的内容对于 **中国大陆用户** 而言，应当 **着重注意**。<br>
-> 如果你是 **港澳台/海外** 用户，可以跳过这部分内容，直接阅读 [**准备安装 Unity**](#准备安装-unity) 小节。
+> 此处的内容对于 **中国大陆用户** 与 **中国港澳台地区用户** 而言，应当 **着重注意**。<br>
+> 如果你是 **海外** 用户，可以跳过这部分内容，直接阅读 [**准备安装 Unity**](#准备安装-unity) 小节。
 
 > 所以，Unity 还分中国版和国际版么？
 
@@ -63,16 +63,19 @@ sidebar: true
 
 也许你认为你眼力很尖，也可能你动手能力很强，能直接去找**国际版官网**，但——
 > [!CAUTION] ⛔ 劲爆尾杀（划
-> 在 **中国大陆网络环境** 直接访问 Unity 官网时，可能默认跳转至 **中国版** 页面。<br>尽管你也可以在国际版官网下载unity，但在 **中国大陆网络环境** 下，你下载到的 Unity Hub 和 Unity Editor 也可能是中国版。
+> 在 **中国大陆网络环境** 直接访问 Unity 官网时，可能默认跳转至 **中国版** 页面。<br>尽管你也可以在国际版官网下载unity，但在 **中国大陆/港澳台地区网络环境** 下，你下载到的 Unity Hub 和 Unity Editor 也可能是中国版。
 
 
 **那么，如何安装Unity国际版呢？**
-- 如果你是 **港澳台/海外** 用户，或者全程使用 **科学上网环境** 的中国大陆用户，请确保在下一小节的教程中，访问的是 [Unity 国际版官网(unity.com)](https://unity.com/)（而非 unity.cn），以保证你获取的是国际版资源。
-- 如果你没有下载国际版资源的能力，推荐加入 [**UCT 官方交流群**](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=wK7VVbI0VU8mPpG94nDLsHaLRbky5cMT&authKey=LQfQsHtXTqbrRdmhSgUtxesNz9UmiETjymrhJF%2BFT1pAiEy0HUxSfM%2Fx%2FsTdOUC%2F&noverify=0&group_code=289694657)，在 **群文件** 获取国际版 Unity Hub 安装包，以确保版本一致。
+由于笔者对网络环境配置相关知识了解不多，此处的建议仅供参考：
+
+- 请保证你全程处于 **国际互联网环境** 或 **科学上网环境** ，并确保在下一小节的教程中，访问的是 [Unity 国际版官网(unity.com)](https://unity.com/)（而非 unity.cn），并获取的是不包含 **“c1”、“c2” 等后缀** 的国际版资源。
+
+如果你没有下载国际版资源的能力，推荐加入 [**UCT 官方 QQ 交流群**](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=wK7VVbI0VU8mPpG94nDLsHaLRbky5cMT&authKey=LQfQsHtXTqbrRdmhSgUtxesNz9UmiETjymrhJF%2BFT1pAiEy0HUxSfM%2Fx%2FsTdOUC%2F&noverify=0&group_code=289694657)，在 **群文件** 获取国际版 Unity Hub 安装包，以确保版本一致。
 
 ::: details ❔ 对此还有任何疑问么？
 可以参考一下[这篇博客](https://blog.csdn.net/Blueberry124/article/details/146460097)（侵权删除）<br>
-或者，可以在 UCT 的 QQ群 / Discord 服务器 中礼貌地进行询问。
+或者，可以在 UCT 的 [QQ群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=wK7VVbI0VU8mPpG94nDLsHaLRbky5cMT&authKey=LQfQsHtXTqbrRdmhSgUtxesNz9UmiETjymrhJF%2BFT1pAiEy0HUxSfM%2Fx%2FsTdOUC%2F&noverify=0&group_code=289694657) / [Discord 服务器](https://discord.gg/xvYKa2pSN6) 中礼貌地进行询问。
 :::
 
 ## 准备安装 Unity
