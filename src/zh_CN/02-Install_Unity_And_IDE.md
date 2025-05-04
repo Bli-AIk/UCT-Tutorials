@@ -205,10 +205,11 @@ Unity Hub 的设置就完成了。接着——我们去安装 Editor！
 > **以下内容尚未撰写完成。**
 
 ### 安装Unity Editor
+你需要安装 Unity Editir 2021.3.15f1。
 
-- **Android Build Support**：用于导出安卓包  
+- **Android Build Support**：用于导出安卓包（可选）  
 - **Documentation**：本地文档（可选）  
-- **简体中文语言包**  
+- **语言包**  
 - 默认安装中可能包含 Visual Studio 2019，可选择不安装（如使用 Rider）
 
 
