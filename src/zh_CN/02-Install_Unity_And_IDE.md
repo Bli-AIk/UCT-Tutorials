@@ -34,7 +34,7 @@ sidebar: true
 
 准备好了吗？让我们开始吧。
 
-## Unity 还分 中国版 和 国际版？ 
+## Unity 版本差异 
 > [!WARNING] ⚠️ 注意嗷！
 > 此处的内容对于 **中国大陆用户** 与 **中国港澳台地区用户** 而言，应当 **着重注意**。<br>
 > 如果你是 **海外** 用户，可以跳过这部分内容，直接阅读 [**准备安装 Unity**](#准备安装-unity) 小节。
@@ -201,19 +201,99 @@ Unity Hub 中，我们常用的也就三个页面——
 Unity Hub 的设置就完成了。接着——我们去安装 Editor！
 
 ---
-> [!WARNING] ⚠️ 你先别急
-> **以下内容尚未撰写完成。**
-
 ### 安装Unity Editor
-你需要安装 Unity Editir 2021.3.15f1。
 
-- **Android Build Support**：用于导出安卓包（可选）  
-- **Documentation**：本地文档（可选）  
-- **语言包**  
-- 默认安装中可能包含 Visual Studio 2019，可选择不安装（如使用 Rider）
+让我们点进 **安装量**，这里会显示本地安装的所有的 Unity Editor 版本——
+<br>正如下图这样。我已经安装好了 **Unity Editor 2021.3.15f1**！
 
+<img src="/02/UnityHub7.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+哦，你那边应该还啥也没有呢。问题不大，你可以试试点一下这个 **“安装编辑器”** 按钮。
+<br>然后问题就来了——
+
+<img src="/02/UnityHub8.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+这里有好多版本啊，但 2021 版只有这个——2021.3.45f1...?
+
+请注意，这个版本并不是 **2021.3.15f1**。别看只是小版本号上的差异，但是这也可能会导致一些问题——至少之前有群友跟我反映过。
+<br>而更改大版本，如2022版、2023版，甚至是Unity6——那更不行！鬼知道你用那些版本会出什么问题——并且我也不会去做适配。_我觉得没什么必要。_
+
+> [!IMPORTANT] 📍 切记切记
+> 必须使用 **Unity Editor 2021.3.15f1**，无论是大版本号还是小版本号，都必须完全一致。
+
+那我们如何去下载这个版本呢？其实也很简单——直接在你的浏览器里面访问这个地址：
+```
+unityhub://2021.3.15f1/e8e88683f834
+```
+
+<img src="/02/UnityHub9.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+然后你就会看到类似这样的窗口弹出来，提示你从浏览器打开 Unity Hub。
+
+<img src="/02/UnityHub10.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+打开 Unity Hub 后，就会看到这个窗口出现啦——嗯，我们快搞定了。
+<br>*你那边左上角显示的应该就是 **安装 Unity 2021.3.15f1**，
+<br>~~只不过我装过这个版本了——所以我截图就先拿2021.3.45f1演示一下（~~*
+
+这里有几个附加项可以选择。我会逐个解释。
+
+---
+
+#### Editor 附加项 - 开发工具 (IDE)
+
+<img src="/02/UnityHub11.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+在开发工具这一栏，标上了 **Visual Studio 2019**。
+<br>倘若你勾选上它并安装 Unity Editor，那么 Unity Hub 会帮你捆绑安装 **VS2019**。
+<br>**VS2019**，就是我们后文要讲到的 **IDE**—— 也就是你敲代码的东西——的众多选择**之一**。
+
+我特别强调了：它是众多选择**之一**。并且，它不是我最推荐的 **IDE**。我在下文会解释原因。
+<br>所以，如果你想选其他的IDE，就不要勾选它。IDE只装一个就可以。
+
+#### Editor 附加项 - 平台
+
+<img src="/02/UnityHub12.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+如果你想导出你的 Unity 项目到 Android, Mac, Linux... 你就需要安装对应的平台附加项。
+<br>在这里，根据你的需要安装就可以——但我得事先说明，UCT还没有经过多平台适配。
+<br>如果你想给自己的项目导出多平台，理论上可以，但是你得做一些自己的适配调整。
+<br>在这方面我无法提供帮助，_~~不过大伙要是能整可以来帮帮我~~_
+
+> [!TIP] 💡 哦对了
+> 你可以不安装任何平台附加项。导出exe文件是默认的选择，不需要任何附加项。
+> <br>如果你想日后再安装平台附加项，也很简单——直接在 Unity Hub 中选择 “添加模块” 就行了。
+> <img src="/02/UnityHub15.png" alt="Head" style="display: block; margin: 0 auto;"/>
+> 如图所示。
+
+#### Editor 附加项 - 语言包
+
+<img src="/02/UnityHub13.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+安装对应的语言包后，才能更改Unity Editor的显示语言。
+<br>对于非英语母语者来说，这里的选择很有必要，对吧？
+<br>根据你的需要来选择安装吧。
+
+#### Editor 附加项 - 文档
+
+<img src="/02/UnityHub14.png" alt="Head" style="display: block; margin: 0 auto;"/>
+
+勾选这个选项后会安装一份 Unity 本地文档。
+<br>...但我觉得看在线文档就够用了——这玩意儿占七百MB的空间，我觉得也不合适。
+<br>不管怎样，还是根据你的需要来选择安装吧。
+
+_哦，你问我在线文档网址搁哪？第一章不是写了么？(Unity 脚本 API, Unity 手册)_
+
+---
+挑选完你需要的附加项后，你就可以直接安装了。
+
+安装 Unity Editor 还是得等一段时间的...
+<br>在这段时间里，我们为何不想想，用什么IDE敲代码呢？
 
 ### 选择合适的 IDE
+
+> [!WARNING] ⚠️ 你先别急
+> **以下内容尚未撰写完成。**
 
 Unity 支持的主流代码编辑器有：
 
@@ -223,7 +303,7 @@ Unity 支持的主流代码编辑器有：
 | Visual Studio Code | 轻量灵活，但需要手动安装插件与配置               |
 | **Rider（推荐）** | 启动快、补全强、集成度高，专为 Unity 优化，**非商业用途免费** |
 
-### Rider 的安装方式：
+### Rider 的安装方式
 
 1. 前往 [JetBrains 官网](https://www.jetbrains.com/rider/) 或使用 JetBrains Toolbox 安装  
 2. 安装完成后，首次启动可选择导入设置  
