@@ -33,7 +33,60 @@ export default defineConfigWithTheme<ThemeConfig>({
           text: 'Introduction and Preparation',
           items: [
             { text: '01-Foreword', link: '/01-Foreword' },
-            { text: '02-Install Unity and IDE', link: '/02-Install_Unity_And_IDE' }
+            { text: '02-Install Unity and IDE', link: '/02-Install_Unity_And_IDE' },
+            { text: '03-Configure Git and Download UCT', link: '/03-Configure_Git_And_Download_UCT' },
+            { text: '04-Deconstruct Undertale', link: '/04-Deconstruct_Undertale' }
+          ]
+        },
+        {
+          text: 'Overworld System',
+          items: [
+            { text: '05-Overworld Overview', link: '/05-Overworld_Overview' },
+            { text: '06-Player StateMachine and Data', link: '/06-Player_StateMachine_And_Data' },
+            { text: '07-Inventory System', link: '/07-Inventory_System' },
+            { text: '08-Create New Scene', link: '/08-Create_New_Scene' },
+            { text: '09-Overworld Event System', link: '/09-Overworld_Event_System' },
+            { text: '10-Language Pack System', link: '/10-Language_Pack_System' },
+            { text: '11-UCT RichText System', link: '/11-UCT_RichText_System' },
+            { text: '12-Chase', link: '/12-Chase' }
+          ]
+        },
+        {
+          text: 'Battle System',
+          items: [
+            { text: '13-Battle Overview', link: '/13-Battle_Overview' },
+            { text: '14-Configure Enemies', link: '/14-Configure_Enemies' },
+            { text: '15-Edit Bullets', link: '/15-Edit_Bullets' },
+            { text: '16-Edit Turns', link: '/16-Edit_Turns' },
+            { text: '17-Edit Soul', link: '/17-Edit_Soul' }
+          ]
+        },
+        {
+          text: 'Misc Scenes',
+          items: [
+            { text: '18-Settings Overview', link: '/18-Settings_Overview' },
+            { text: '19-Settings Page Creation', link: '/19-Settings_Page_Creation' },
+            { text: '20-Other Simple Scenes Overview', link: '/20-Other_Simple_Scenes_Overview' },
+            { text: '21-Menu Scene', link: '/21-Menu_Scene' },
+            { text: '22-Rename Scene', link: '/22-Rename_Scene' },
+            { text: '23-Story Scene', link: '/23-Story_Scene' },
+            { text: '24-Start Scene', link: '/24-Start_Scene' }
+          ]
+        },
+        {
+          text: 'Conclusion',
+          items: [
+            { text: '25-Summary', link: '/25-Summary' }
+          ]
+        },
+        {
+          text: 'Contribution Guide',
+          items: [
+            { text: '26-Discuss Problems', link: '/26-Discuss_Problems' },
+            { text: '27-Report Bugs via Issue', link: '/27-Report_Bugs_Issue' },
+            { text: '28-Suggestions via Issue', link: '/28-Suggestions_Issue' },
+            { text: '29-Fix Bugs via PR', link: '/29-Fix_Bugs_PR' },
+            { text: '30-Improve Template via PR', link: '/30-Improve_Template_PR' }
           ]
         }
       ],
@@ -107,10 +160,69 @@ export default defineConfigWithTheme<ThemeConfig>({
       ],
       '/zh_TW/': [
         {
+          text: '關於本教學',
+          items: [
+            { text: '00-在正式開始前的話', link: '/zh_TW/00-Before_We_Officially_Begin' }
+          ]
+        },
+        {
           text: '引言與準備',
           items: [
             { text: '01-前言', link: '/zh_TW/01-Foreword' },
-            { text: '02-安裝 Unity 與 IDE', link: '/zh_TW/02-Install_Unity_And_IDE' }
+            { text: '02-安裝 Unity 與 IDE', link: '/zh_TW/02-Install_Unity_And_IDE' },
+            { text: '03-配置 Git 與下載 UCT', link: '/zh_TW/03-Configure_Git_And_Download_UCT' },
+            { text: '04-解構原作', link: '/zh_TW/04-Deconstruct_Undertale' }
+          ]
+        },
+        {
+          text: 'Overworld 系統',
+          items: [
+            { text: '05-Overworld 概覽', link: '/zh_TW/05-Overworld_Overview' },
+            { text: '06-玩家狀態機與資料', link: '/zh_TW/06-Player_StateMachine_And_Data' },
+            { text: '07-背包系統', link: '/zh_TW/07-Inventory_System' },
+            { text: '08-新建場景', link: '/zh_TW/08-Create_New_Scene' },
+            { text: '09-Overworld 事件系統', link: '/zh_TW/09-Overworld_Event_System' },
+            { text: '10-語言包系統', link: '/zh_TW/10-Language_Pack_System' },
+            { text: '11-UCT 的富文字系統', link: '/zh_TW/11-UCT_RichText_System' },
+            { text: '12-追逐戰', link: '/zh_TW/12-Chase' }
+          ]
+        },
+        {
+          text: 'Battle 系統',
+          items: [
+            { text: '13-Battle 概覽', link: '/zh_TW/13-Battle_Overview' },
+            { text: '14-配置敵人', link: '/zh_TW/14-Configure_Enemies' },
+            { text: '15-編輯彈幕', link: '/zh_TW/15-Edit_Bullets' },
+            { text: '16-編輯回合', link: '/zh_TW/16-Edit_Turns' },
+            { text: '17-編輯魂心', link: '/zh_TW/17-Edit_Soul' }
+          ]
+        },
+        {
+          text: '雜項場景',
+          items: [
+            { text: '18-Settings 概覽', link: '/zh_TW/18-Settings_Overview' },
+            { text: '19-設定頁面製作', link: '/zh_TW/19-Settings_Page_Creation' },
+            { text: '20-其他簡單場景概覽', link: '/zh_TW/20-Other_Simple_Scenes_Overview' },
+            { text: '21-選單場景', link: '/zh_TW/21-Menu_Scene' },
+            { text: '22-Rename 場景', link: '/zh_TW/22-Rename_Scene' },
+            { text: '23-Story 場景', link: '/zh_TW/23-Story_Scene' },
+            { text: '24-Start 場景', link: '/zh_TW/24-Start_Scene' }
+          ]
+        },
+        {
+          text: '結語',
+          items: [
+            { text: '25-總結', link: '/zh_TW/25-Summary' }
+          ]
+        },
+        {
+          text: '貢獻指南',
+          items: [
+            { text: '26-遇到問題可討論', link: '/zh_TW/26-Discuss_Problems' },
+            { text: '27-回報 BUG 請開 Issue', link: '/zh_TW/27-Report_Bugs_Issue' },
+            { text: '28-提出建議請開 Issue', link: '/zh_TW/28-Suggestions_Issue' },
+            { text: '29-修復 BUG 請提 PR', link: '/zh_TW/29-Fix_Bugs_PR' },
+            { text: '30-改進模板請提 PR', link: '/zh_TW/30-Improve_Template_PR' }
           ]
         }
       ]
