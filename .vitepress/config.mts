@@ -30,6 +30,12 @@ export default defineConfigWithTheme<ThemeConfig>({
     sidebar: {
       '/': [
         {
+          text: 'About This Tutorial',
+          items: [
+            { text: '00-A Few Words Before We Officially Begin', link: '/00-Before_We_Officially_Begin' }
+          ]
+        },
+        {
           text: 'Introduction and Preparation',
           items: [
             { text: '01-Foreword', link: '/01-Foreword' },
